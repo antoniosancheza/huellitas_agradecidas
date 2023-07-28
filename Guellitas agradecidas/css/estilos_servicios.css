@@ -1,0 +1,113 @@
+/*Variables*/
+:root {
+    --color_hover: #131213;
+    --color_navbar: #521262;
+    --color_navbar_scroll: #e6e6e6;
+    --color_navbar_hover: #131213;
+    --Titulo_principal: 'Proza Libre', sans-serif;
+}
+
+/*Estilos menu*/
+.menu {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background-color: var(--color_navbar);
+    z-index: 100;
+}
+
+.menu h1 {
+    padding: 3% 0 0 2%;
+    font-size: 30px;
+    color: #ffff;
+    font-family: 'Proza Libre', sans-serif;
+}
+
+#menu_logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 1% 0 1% 1%;
+}
+
+.menu_opciones {
+    padding-top: 3%;
+}
+
+#link_activo {
+    color: #ffff;
+    text-decoration: underline;
+}
+
+.opciones_opcion {
+    color: #ffff;
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 14px;
+}
+
+.opciones_opcion:hover {
+    color: var(--color_hover);
+    cursor: pointer;
+}
+
+/*Estilos titulo principal*/
+.titulo {
+    padding-top: 12%;
+}
+
+.titulo_principal {
+    font-family: var(--Titulo_principal);
+    text-align: center;
+    color: var(--color_navbar);
+}
+
+/*Estilos cards servicios*/
+
+.card-servicios {
+    margin: 3% 10% 3% 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.servicios {
+    border: 1px solid var(--color_navbar);
+}
+
+.servicio_texto {
+    text-align: center;
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 16px;
+}
+
+/*Estilos ubicacion*/
+
+.ubicacion {
+    text-align: center;
+}
+
+.ubicacion_mapa {
+    margin: 3% 0 3% 0;
+    width: 80%;
+    height: 450;
+}
+
+/*Estilos Pie de pagina*/
+.pie-pagina {
+    background-color: var(--color_navbar);
+}
+
+.pie-pagina_derechos {
+    padding: 3% 0 0 2%;
+    text-align: center;
+    font-size: 30px;
+    color: #ffff;
+    font-family: var(--Titulo_principal);
+}
+
+.pie-pagina_social {
+    margin-top: 2% 0 0 2%;
+    color: #ffff;
+    text-align: center;
+    font-size: 30px;
+    word-spacing: 20px;
+}
